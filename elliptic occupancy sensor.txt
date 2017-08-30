@@ -1,0 +1,24 @@
+
+Elliptic occupancy sensor 
+--------------------------
+BT MAC address 00:21:13:01:04:65
+
+Serial Rx   2    green   to Tx of BT module HC-05, directly.
+Serial Tx   3    gray    to Rx of BT, through 2K:1K voltage divider
+
+PIR1        4    white   HC-SR 501
+PIR2        5    blue
+Buzzer      A2   white
+
+Relay1      A3   white   5V/230V-10A
+Relay2      A4   brown
+
+Radar       A0   white   RCWL-0516
+
+LED1        6    yellow 
+LED2        9    brown 
+LED3        10   green
+LED4        11   yellow
+
+for All LEDs, red is ground (cathode)
+All LEDs are active HIGH. They are on PWM pins for brightness control. 
