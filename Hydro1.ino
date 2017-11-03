@@ -1,11 +1,10 @@
 /*
 TODO:
-soft serial; send status; android app
-consoliated single error flag
-light sensor; bubbler control
+android app
+light sensor+ bubbler on-off
 use pulse counter to abort pump
 beeper modes
-resilient: recovery from RTC or flow meter failure
+resilient: recovery from RTC /flow meter failure
 MAC address of Bluetooth HC-05 is 98:D3:32:20:EA:01 
 Connect the HC-05 TX to Arduino's Rx  pin. 
 Connect the HC-05 RX to Arduino's Tx  pin through a 1K:2K voltage divider.
